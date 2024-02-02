@@ -16,6 +16,7 @@
     <meta property="og:image" content="./img/og-image.jpg">
     <link rel="icon" type="image/vnd.microsoft.icon" href="./img/favicon.ico">
     <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./js/exhibition.js"></script>
 </head>
 <body>  
  
@@ -59,7 +60,7 @@
 						<span>&#9660;</span>
 					</label>
 					<ul class="menu">
-						<li><a href="vrex.php" class="active">3D Galley</a></li>
+						<li><a href="vrex.html" class="active">3D Galley</a></li>
 						<li><a href="artist.php">Artist</a></li>
 						<li><a href="dgbook.php">PW Collection</a></li>
 						<li><a href="about_us.php">About PostWings</a></li>
@@ -167,6 +168,128 @@
 	</section>
 
 	<!-- End search -->
+
+	<!-- 此為藝術家數量, 依使用者選擇的藝術家在下方顯示相關資訊 -->
+	<!-- Start Index -->
+		<session class="index index_artist">
+			<div class="container">
+				
+			</div>
+		</session>
+	<!-- End Index -->
+
+	<!-- 以下區域, 依使用者選擇的藝術家顯示相關資訊 -->
+
+	<!-- 若藝術家有一個以上的展間, 則會自動輪播 -->
+	<!-- Start banner -->
+	<section class="result vrex">
+		<div class="container">
+			<div class="carousel">
+				 <div class="slides">
+
+				 	<!-- Start item01 -->
+					<div class="slide" id="result_slide01">
+						<div class="item">
+					 		<div class="title">
+						 		<a href="artist.php">
+							 		<h1>Li Suzhen</h1>
+							 		<h4>李素貞</h4>
+							 	</a>
+							</div>
+						 	<div class="content">
+							 	<div class="img">
+									<a href="https://virtual.metaassets.asia/exhibitions/Sujin">
+										<img src="./img/verx_index_banner_img01.jpg">
+									</a>
+								</div>				 	
+						 		<div class="info">
+						 			<h3>
+										<a href="https://virtual.metaassets.asia/exhibitions/Sujin">
+						 					<span>Vist 3D Gallery</span>
+						 				</a>
+						 				<a href="https://virtual.metaassets.asia/exhibitions/Sujin">
+						 					<span class="arrow"><img src="./img/icon_arrow-right.png"></span>
+										</a>
+						 			</h3>
+						 		</div>
+						 	</div>
+				 		</div>
+					</div>
+				 	<!-- End item01 -->
+				 	
+				 	<!-- Start item02 -->
+					<div class="slide" id="result_slide02">
+						<div class="item">
+					 		<div class="title">
+						 		<a href="artist.php">
+							 		<h1>Li Suzhen</h1>
+							 		<h4>李素貞</h4>
+							 	</a>
+							</div>
+						 	<div class="content">
+							 	<div class="img">
+									<a href="https://virtual.metaassets.asia/exhibitions/SujinA">
+										<img src="./img/verx_index_banner_img02.jpg">
+									</a>
+								</div>				 	
+						 		<div class="info">
+						 			<h3>
+										<a href="https://virtual.metaassets.asia/exhibitions/SujinA">
+						 					<span>Vist 3D Gallery</span>
+						 				</a>
+						 				<a href="https://virtual.metaassets.asia/exhibitions/SujinA">
+						 					<span class="arrow"><img src="./img/icon_arrow-right.png"></span>
+										</a>
+						 			</h3>
+						 		</div>
+						 	</div>
+				 		</div>
+					</div>
+				 	<!-- End item02 -->
+
+				 	<!-- Start item03 -->
+					<div class="slide" id="result_slide03">
+						<div class="item">
+					 		<div class="title">
+						 		<a href="artist.php">
+							 		<h1>Li Suzhen</h1>
+							 		<h4>李素貞</h4>
+							 	</a>
+							</div>
+						 	<div class="content">
+							 	<div class="img">
+									<a href="https://virtual.metaassets.asia/exhibitions/Sujinlee">
+										<img src="./img/verx_index_banner_img03.jpg">
+									</a>
+								</div>				 	
+						 		<div class="info">
+						 			<h3>
+										<a href="https://virtual.metaassets.asia/exhibitions/Sujinlee">
+						 					<span>Vist 3D Gallery</span>
+						 				</a>
+						 				<a href="https://virtual.metaassets.asia/exhibitions/Sujinlee">
+						 					<span class="arrow"><img src="./img/icon_arrow-right.png"></span>
+										</a>
+						 			</h3>
+						 		</div>
+						 	</div>
+				 		</div>
+					</div>
+				 	<!-- End item03 -->
+
+
+				 </div>
+				 <!--
+				 <div class="carousel_dot">
+			          <a href="#result_slide01" class="active">1</a>
+					  <a href="#result_slide02" >2</a>
+					  <a href="#result_slide03" >3</a>
+			    </div>
+			    -->
+			</div>
+		</div>
+	</section>
+	<!-- End banner -->
 
 
 
