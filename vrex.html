@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <script type="text/javascript" src="./js/exhibition.js"></script>
 </head>
-<body>  
+<body class="vrex">  
  
  	 <header>
 	<!-- Start marquee: 跑燈是文字會一直跑, 也許有數則, 從後台抓 -->
@@ -171,31 +171,39 @@
 
 	<!-- 此為藝術家數量, 依使用者選擇的藝術家在下方顯示相關資訊 -->
 	<!-- Start Index -->
-		<session class="index index_artist">
-			<div class="container">
-				
-			</div>
-		</session>
+	<section class="index index_artist">
+		<div class="container">
+		
+		</div>
+	</section>
 	<!-- End Index -->
 
 	<!-- 以下區域, 依使用者選擇的藝術家顯示相關資訊 -->
 
 	<!-- 若藝術家有一個以上的展間, 則會自動輪播 -->
-	<!-- Start banner -->
+	<!-- Start result vrex -->
 	<section class="result vrex">
 		<div class="container">
-			<div class="carousel">
+			<div class="title">
+				<a href="artist.php">
+					<h1>Li Suzhen</h1>
+					<h4>李素貞</h4>
+				</a>
+			</div>
+			<div class="carousel "><!-- autoplay -->
 				 <div class="slides">
 
 				 	<!-- Start item01 -->
-					<div class="slide" id="result_slide01">
+					<div class="slide backward" id="result_slide01">
 						<div class="item">
+							<!--
 					 		<div class="title">
-						 		<a href="artist.php">
+						 		<a href="https://virtual.metaassets.asia/exhibitions/Sujin">
 							 		<h1>Li Suzhen</h1>
 							 		<h4>李素貞</h4>
 							 	</a>
 							</div>
+						-->
 						 	<div class="content">
 							 	<div class="img">
 									<a href="https://virtual.metaassets.asia/exhibitions/Sujin">
@@ -218,14 +226,16 @@
 				 	<!-- End item01 -->
 				 	
 				 	<!-- Start item02 -->
-					<div class="slide" id="result_slide02">
+					<div class="slide backward" id="result_slide02">
 						<div class="item">
+							<!--
 					 		<div class="title">
-						 		<a href="artist.php">
+						 		<a href="https://virtual.metaassets.asia/exhibitions/SujinA">
 							 		<h1>Li Suzhen</h1>
 							 		<h4>李素貞</h4>
 							 	</a>
 							</div>
+							-->
 						 	<div class="content">
 							 	<div class="img">
 									<a href="https://virtual.metaassets.asia/exhibitions/SujinA">
@@ -248,14 +258,16 @@
 				 	<!-- End item02 -->
 
 				 	<!-- Start item03 -->
-					<div class="slide" id="result_slide03">
+					<div class="slide backward" id="result_slide03">
 						<div class="item">
+							<!--
 					 		<div class="title">
-						 		<a href="artist.php">
+						 		<a href="https://virtual.metaassets.asia/exhibitions/Sujinlee">
 							 		<h1>Li Suzhen</h1>
 							 		<h4>李素貞</h4>
 							 	</a>
 							</div>
+							-->
 						 	<div class="content">
 							 	<div class="img">
 									<a href="https://virtual.metaassets.asia/exhibitions/Sujinlee">
@@ -289,9 +301,82 @@
 			</div>
 		</div>
 	</section>
-	<!-- End banner -->
+	<!-- End result vrex -->
+	<!-- 作者介紹, 200字內-->
+	<!-- Start artist intro -->
+	<section class="resume">
+		<div class="container">
+			<p>
+			李素貞
+　1951年　生於台灣．台中縣．大雅鄉
 
+現任
+　高雄市明正國小校長
 
+學歷
+　2007　高雄師範大學成人教育研究所碩士
+　1991　國立台南師範學院數理教育學系畢業
+　1971　國立花蓮師範專科學校美勞組畢業
+
+經歷
+　國小教師、主任、校長36年
+
+收藏
+　2000年　高雄市立美術館典藏作品「受苦人」、「環保人」、「青春」
+
+展歷
+　1971　參加全國水彩畫展於台北國立歷史博物館。
+　1973　加入「台中藝術家俱樂部」、「中華民國版畫學會」。
+　1974-75　藝術家聯展於省立台中圖書館、高雄市美術家畫廊、台中百樂畫廊。
+　1976　台灣省特殊優良教師「師鐸獎」。
+　1978-80　中部美展、台中市美術家聯展、藝術家俱樂部畫展於台灣省立博物館、台北春之藝廊。
+　1979　「女畫家四人展」於台中市翠華堂。
+　　　　台灣省公教人員書畫展油畫專業組佳作。
+　1980　作品「靜物」為台灣省政府收藏。
+			</p>
+		</div>
+	</section>
+	<!-- End artist intro -->
+	<!-- Start artwork -->
+	<section class="artwork">
+		<div class="container">
+				<div class="img artwork01">
+					<img src="./img/verx_artwork_img01.jpg">
+				</div>
+				<div class="img artwork02">
+					<img src="./img/verx_artwork_img02.jpg">
+				</div>
+		</div>
+	</section>
+	<!-- End artwork -->
+	<!-- Start exhibition intro -->
+	<section class="exhibition">
+		<div class="container">
+			<p>展期：2025/元月 地點：高雄市立美術館 KSpace高雄實驗場 近年重要個展 2000 貞心素語— 李素貞個展/ 髙雄市立美術館 2007 浪漫與人本— 李素貞創作展/ 高雄正修藝術中心 2012 人間道— 李素貞個展/ 髙雄市立美術館 2016 「社」彩繽紛-- 李素貞個展/ 台北歌德藝術中心 2017 國際當代繪畫邀請展/ 台灣台南 2017 一個阿母畫的台灣-- 李素貞個展/ 日本東京藝術劇場 2017 一個母親畫的台灣-- 李素貞個展/ 台北中山堂 2018 藝術*良知良能-- 李素貞個展/ 台北228國家紀念館 2018 花開月自明個展/ 台中葫蘆墩文化中心 2019 一個母親畫的台灣-- 李素貞作品展/ 台南市美術館1館 2021 天真創作個展/ 高雄市立文化中心 創作自述 我的創作記錄了自己看待台灣這塊土地的心路歷程。面對國際情勢劇烈改變，俄烏戰爭、亞太情勢各層面都衝擊台灣的生存發展，我從身為人母的角度，描繪烙印在心坎裡的真實，創作的泉源來自生活中種種的體會，特別是社會發生的事件，我想彰顯人有免於恐懼的自由。 本次展覽包含「母性肉身」、「夾縫風雲」、「抵抗意志」三大主題，作品反應對社會歷史的積極參與及深刻省思，企圖勾勒出一段有情有淚的台灣近現代史。 「母性肉身」是以母親的視角，見證戒嚴以來的民主進程，回到歷史現場感同身受，坦誠地面對自己的社會，在畫中找到台灣女性不畏艱難的搏鬥精神。
+			</p>
+		</div>
+	</section>
+	<!-- End exhibition intro -->
+	<!-- Start artist -->
+		<section class="artist">
+			<div class="container">
+				<!-- Start item01 -->
+				<div class="item">
+					<div class="img">
+						<img src="./img/artist_banner_img_01.jpg">
+					</div>
+					<div class="title">
+						<a href="artist.php">
+							<h2>Li Suzhen</h2>
+							<h3>李素貞</h3>
+							<span class="arrow"><img src="./img/icon_arrow-right.png"></span>	
+						</a>
+					</div>
+				</div>
+				<!-- End item01 -->
+			</div>
+		</section>
+		<!-- End artist -->
 
 
 
