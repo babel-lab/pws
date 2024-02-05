@@ -18,8 +18,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <script type="text/javascript" src="./js/exhibition.js"></script>
 </head>
-<body class="home">
-	 <header>
+<body class="vrex">  
+ 
+ 	 <header>
 	<!-- Start marquee: 跑燈是文字會一直跑, 也許有數則, 從後台抓 -->
 	<section class="marquee">
 		<div class="container">
@@ -71,70 +72,29 @@
 		</div>
 	</section>
 	 <!-- End navbar -->
-</header>	<!-- Start banner -->
-	<section class="banner home">
+</header> 
+
+	<!-- Start banner -->
+	<section class="banner vrex">
 		<div class="container">
 			<div class="carousel">
 				 <div class="slides">
 
-				 	<!-- Start item01 -->				 	
+				 	<!-- Start item01 -->		 	
 					<div class="slide" id="banner_slide01">
-						<div class="item">			 			
-						 	<div class="title">
-						 		<a href="artist.php">
-							 		<h4>村木紀之</h4>
-							 		<h1>Japan</h1>	
-							 	</a>
-							</div>
+						<div class="item"> 			
 							<div class="img">
 								<a href="artist.php">
-									<img src="./img/home_banner_img01.jpg">
+									<img src="./img/verx_banner_img01.jpg">
 								</a>
 							</div>
 						</div>
 					</div>
 				 	<!-- End item01 -->
-				 	<!-- Start item02 -->
-					<div class="slide" id="banner_slide02">
-					 	<div class="item">
-					 		<div class="title">
-					 			<a href="artist.php">
-							 		<h4>雷岱爾.艾斯畢諾沙</h4>
-							 		<h1>Cuba</h1>
-							 	</a>
-						 	</div>
-							<div class="img">
-								<a href="artist.php">
-									<img src="./img/home_banner_img02.jpg">
-								</a>
-							 </div>
-					 	</div>
-					</div>
-				 	<!-- End item02 -->
-				 	<!-- Start item03 -->
-					<div class="slide" id="banner_slide03">
-					 	<div class="item">
-					 		<div class="title">
-					 			<a href="artist.php">
-						 			<h4>理查德.博伊德-鄧洛普</h4>
-						 			<h1>Australia</h1>	
-						 		</a>
-						 	</div>
-							<div class="img">
-								<a href="artist.php">
-							 		<img src="./img/home_banner_img03.jpg">
-							 	</a>
-							</div>
-						</div>
-					</div>
-				 	<!-- End item03 -->
-
 				 </div>
 				 
 				 <div class="carousel_dot">
 			          <a href="#banner_slide01" class="active">1</a>
-					  <a href="#banner_slide02" >2</a>
-					  <a href="#banner_slide03" >3</a>
 			    </div>
 			     
 			</div>
@@ -208,120 +168,200 @@
 	</section>
 
 	<!-- End search -->
-	<!-- Start catalog -->
-	<section class="catalog">
+
+	<!-- 此為藝術家數量, 依使用者選擇的藝術家在下方顯示相關資訊 -->
+	<!-- Start Index -->
+	<section class="index index_artist">
 		<div class="container">
-			<div class="carousel">
+		
+		</div>
+	</section>
+	<!-- End Index -->
+
+	<!-- 以下區域, 依使用者選擇的藝術家顯示相關資訊 -->
+
+	<!-- 若藝術家有一個以上的展間, 則會自動輪播 -->
+	<!-- Start result vrex -->
+	<section class="result vrex">
+		<div class="container">
+			<div class="title">
+				<a href="artist.php">
+					<h1>Li Suzhen</h1>
+					<h4>李素貞</h4>
+				</a>
+			</div>
+			<div class="carousel "><!-- autoplay -->
 				 <div class="slides">
-				 	<div class="slide" id="catalog_slide01">
-				 		<!-- Start item01 -->
-				 		<div class="item">			 			
+
+				 	<!-- Start item01 -->
+					<div class="slide backward" id="result_slide01">
+						<div class="item">
+							<!--
 					 		<div class="title">
-					 			<a href="vrex.html">
-						 			<h4>3D藝廊</h4>
-						 		</a>
-						 		<a href="vrex.html">
-						 			<span class="arrow"><img src="./img/icon_arrow-right.png"></span>
+						 		<a href="https://virtual.metaassets.asia/exhibitions/Sujin">
+							 		<h1>Li Suzhen</h1>
+							 		<h4>李素貞</h4>
 							 	</a>
 							</div>
+						-->
 						 	<div class="content">
 							 	<div class="img">
-							 		<a href="vrex.html">
-							 			<img src="./img/catalog_banner_img01.jpg">
-							 		</a>
-							 	</div>						 	
+									<a href="https://virtual.metaassets.asia/exhibitions/Sujin">
+										<img src="./img/verx_index_banner_img01.jpg">
+									</a>
+								</div>				 	
 						 		<div class="info">
-						 			<h6>各式主題空間展影像</h6>	
-						 			<h6><span>李霽洵</span>
-						 				<a href="artist.php">
-						 					<span>女性主體雕刻</span>
+						 			<h3>
+										<a href="https://virtual.metaassets.asia/exhibitions/Sujin">
+						 					<span>Vist 3D Gallery</span>
+						 				</a>
+						 				<a href="https://virtual.metaassets.asia/exhibitions/Sujin">
+						 					<span class="arrow"><img src="./img/icon_arrow-right.png"></span>
 										</a>
-						 			</h6>
-						 			<h6><span>游幸姍</span>
-						 				<a href="artist.php">
-						 					<span>微觀的世界</span>
-										</a>
-						 			</h6>
+						 			</h3>
 						 		</div>
 						 	</div>
 				 		</div>
-				 		<!-- End item01 -->
-
-				 		<!-- Start item02 -->
-				 		<div class="item">
-				 			<div class="title">
-					 			<a href="artist.php">
-						 			<h4>藝術人</h4>
-						 		</a>
-						 		<a href="vrex.html">
-						 			<span class="arrow"><img src="./img/icon_arrow-right.png"></span>
+					</div>
+				 	<!-- End item01 -->
+				 	
+				 	<!-- Start item02 -->
+					<div class="slide backward" id="result_slide02">
+						<div class="item">
+							<!--
+					 		<div class="title">
+						 		<a href="https://virtual.metaassets.asia/exhibitions/SujinA">
+							 		<h1>Li Suzhen</h1>
+							 		<h4>李素貞</h4>
 							 	</a>
 							</div>
+							-->
 						 	<div class="content">
-						 		<div class="img">
-							 		<a href="vrex.html">
-							 			<img src="./img/catalog_banner_img02.jpg">
-							 		</a>
-							 	</div>
+							 	<div class="img">
+									<a href="https://virtual.metaassets.asia/exhibitions/SujinA">
+										<img src="./img/verx_index_banner_img02.jpg">
+									</a>
+								</div>				 	
 						 		<div class="info">
-						 			<h6>各式主題空間展影像</h6>
-						 			<h6><span>李霽洵</span>
-						 				<a href="artist.php">
-							 				<span>女性主體雕刻女性主體雕刻</span>
-							 			</a>
-						 			</h6>
-						 			<h6><span>游幸姍</span>
-						 				<a href="artist.php">
-							 				<span>微觀的世界</span>
-							 			</a>
-						 			</h6>
+						 			<h3>
+										<a href="https://virtual.metaassets.asia/exhibitions/SujinA">
+						 					<span>Vist 3D Gallery</span>
+						 				</a>
+						 				<a href="https://virtual.metaassets.asia/exhibitions/SujinA">
+						 					<span class="arrow"><img src="./img/icon_arrow-right.png"></span>
+										</a>
+						 			</h3>
 						 		</div>
 						 	</div>
 				 		</div>
-				 		<!-- End item02 -->
+					</div>
+				 	<!-- End item02 -->
 
-				 		<!-- Start item03 -->
-				 		<div class="item">
-				 			<div class="title">
-					 			<a href="vrex.html">
-						 			<h4>藝術空間</h4>
-						 		</a>
-						 		<a href="vrex.html">
-						 			<span class="arrow"><img src="./img/icon_arrow-right.png"></span>
+				 	<!-- Start item03 -->
+					<div class="slide backward" id="result_slide03">
+						<div class="item">
+							<!--
+					 		<div class="title">
+						 		<a href="https://virtual.metaassets.asia/exhibitions/Sujinlee">
+							 		<h1>Li Suzhen</h1>
+							 		<h4>李素貞</h4>
 							 	</a>
 							</div>
+							-->
 						 	<div class="content">
-						 		<div class="img">
-							 		<a href="vrex.html">
-							 			<img src="./img/catalog_banner_img03.jpg">
-							 		</a>
-							 	</div>
+							 	<div class="img">
+									<a href="https://virtual.metaassets.asia/exhibitions/Sujinlee">
+										<img src="./img/verx_index_banner_img03.jpg">
+									</a>
+								</div>				 	
 						 		<div class="info">
-						 			<h6>各式主題空間展影像</h6>
-						 			<h6><span>李霽洵</span>
-						 				<a href="artist.php">
-							 				<span>女性主體雕刻</span>
-							 			</a>
-						 			</h6>
-						 			<h6><span>游幸姍</span>
-						 				<a href="artist.php">
-							 				<span>微觀的世界</span>
-							 			</a>
-						 			</h6>
+						 			<h3>
+										<a href="https://virtual.metaassets.asia/exhibitions/Sujinlee">
+						 					<span>Vist 3D Gallery</span>
+						 				</a>
+						 				<a href="https://virtual.metaassets.asia/exhibitions/Sujinlee">
+						 					<span class="arrow"><img src="./img/icon_arrow-right.png"></span>
+										</a>
+						 			</h3>
 						 		</div>
 						 	</div>
 				 		</div>
-				 		<!-- End item03 -->
-				 	</div>
+					</div>
+				 	<!-- End item03 -->
+
 
 				 </div>
+				 <!--
+				 <div class="carousel_dot">
+			          <a href="#result_slide01" class="active">1</a>
+					  <a href="#result_slide02" >2</a>
+					  <a href="#result_slide03" >3</a>
+			    </div>
+			    -->
 			</div>
 		</div>
 	</section>
-	<!-- End catalog -->
-	<!-- Start artist & numbers -->
-	<div class="order">
-		<!-- Start artist -->
+	<!-- End result vrex -->
+	<!-- 作者介紹, 200字內-->
+	<!-- Start artist intro -->
+	<section class="resume">
+		<div class="container">
+			<p>
+			李素貞
+　1951年　生於台灣．台中縣．大雅鄉
+
+現任
+　高雄市明正國小校長
+
+學歷
+　2007　高雄師範大學成人教育研究所碩士
+　1991　國立台南師範學院數理教育學系畢業
+　1971　國立花蓮師範專科學校美勞組畢業
+
+經歷
+　國小教師、主任、校長36年
+
+收藏
+　2000年　高雄市立美術館典藏作品「受苦人」、「環保人」、「青春」
+
+展歷
+　1971　參加全國水彩畫展於台北國立歷史博物館。
+　1973　加入「台中藝術家俱樂部」、「中華民國版畫學會」。
+　1974-75　藝術家聯展於省立台中圖書館、高雄市美術家畫廊、台中百樂畫廊。
+　1976　台灣省特殊優良教師「師鐸獎」。
+　1978-80　中部美展、台中市美術家聯展、藝術家俱樂部畫展於台灣省立博物館、台北春之藝廊。
+　1979　「女畫家四人展」於台中市翠華堂。
+　　　　台灣省公教人員書畫展油畫專業組佳作。
+　1980　作品「靜物」為台灣省政府收藏。
+			</p>
+		</div>
+	</section>
+	<!-- End artist intro -->
+	<!-- Start artwork -->
+	<section class="artwork">
+		<div class="container">
+				<div class="img artwork01">
+					<a href="artist.php">
+						<img src="./img/verx_artwork_img01.jpg">
+					</a>
+				</div>
+				<div class="img artwork02">
+					<a href="artist.php">
+						<img src="./img/verx_artwork_img02.jpg">
+					</a>
+				</div>
+		</div>
+	</section>
+	<!-- End artwork -->
+	<!-- Start exhibition intro -->
+	<section class="exhibition">
+		<div class="container">
+			<p>展期：2025/元月 地點：高雄市立美術館 KSpace高雄實驗場 近年重要個展 2000 貞心素語— 李素貞個展/ 髙雄市立美術館 2007 浪漫與人本— 李素貞創作展/ 高雄正修藝術中心 2012 人間道— 李素貞個展/ 髙雄市立美術館 2016 「社」彩繽紛-- 李素貞個展/ 台北歌德藝術中心 2017 國際當代繪畫邀請展/ 台灣台南 2017 一個阿母畫的台灣-- 李素貞個展/ 日本東京藝術劇場 2017 一個母親畫的台灣-- 李素貞個展/ 台北中山堂 2018 藝術*良知良能-- 李素貞個展/ 台北228國家紀念館 2018 花開月自明個展/ 台中葫蘆墩文化中心 2019 一個母親畫的台灣-- 李素貞作品展/ 台南市美術館1館 2021 天真創作個展/ 高雄市立文化中心 創作自述 我的創作記錄了自己看待台灣這塊土地的心路歷程。面對國際情勢劇烈改變，俄烏戰爭、亞太情勢各層面都衝擊台灣的生存發展，我從身為人母的角度，描繪烙印在心坎裡的真實，創作的泉源來自生活中種種的體會，特別是社會發生的事件，我想彰顯人有免於恐懼的自由。 本次展覽包含「母性肉身」、「夾縫風雲」、「抵抗意志」三大主題，作品反應對社會歷史的積極參與及深刻省思，企圖勾勒出一段有情有淚的台灣近現代史。 「母性肉身」是以母親的視角，見證戒嚴以來的民主進程，回到歷史現場感同身受，坦誠地面對自己的社會，在畫中找到台灣女性不畏艱難的搏鬥精神。
+			</p>
+		</div>
+	</section>
+	<!-- End exhibition intro -->
+	<!-- Start artist -->
 		<section class="artist">
 			<div class="container">
 				<!-- Start item01 -->
@@ -338,215 +378,14 @@
 					</div>
 				</div>
 				<!-- End item01 -->
-				<!-- Start item02 -->
-				<div class="item">
-					<div class="img">
-						<img src="./img/artist_banner_img_02.jpg">
-					</div>
-					<div class="title">
-						<a href="artist.php">
-							<h2>Sofonisba</h2>
-							<h3>蘇芬妮斯芭</h3>
-							<span class="arrow"><img src="./img/icon_arrow-right.png"></span>	
-						</a>
-					</div>
-				</div>
-				<!-- End item02 -->
 			</div>
 		</section>
 		<!-- End artist -->
-		<!-- Start numbers -->
-		<section class="numbers">
-			<div class="container">
-				<!-- Start item01 -->
-				<div class="item">
-					<div class="title">
-						<h2>58</h2>
-						<h5>ARTIST</h5>
-					</div>
-				</div>
-				<!-- End item01 -->
-				<!-- Start item02 -->
-				<div class="item">
-					<div class="title">
-						<h2>2538</h2>
-						<h5>ART WORK</h5>
-					</div>
-				</div>
-				<!-- End item02 -->
-				<!-- Start item03 -->
-				<div class="item">
-					<div class="title">
-						<h2>76</h2>
-						<h5>EXHIBITION SPACE</h5>
-					</div>
-				</div>
-				<!-- End item03 -->
-			</div>
-		</section>
-		<!-- End numbers -->
-	</div>
-	<!-- End artist & numbers -->
-	<!-- Start B1 -->
-	<section class="b1">
-		<div class="container">
-			<div class="img">
-				<img src="./img/b1_01.jpg">
-			</div>
-			<div class="img">
-				<img src="./img/b1_02.jpg">
-			</div>
-		</div>
-	</section>
-	<!-- End B1 -->
-	<!-- Start selection -->
-	<section class="selection">
-		<div class="container">
-			<!-- Start item00, 勿動, 是標題樣式 -->
-			<div class="item subject">
-				<div class="title">
-					<h3>Selections</h3>
-					<h2><span>Art</span><span>Work</span></h2>	
-				</div>
-				
-			</div>
-			<!-- End item00 -->
 
-			<!-- Start item01, 選7個作品 -->
-			<div class="item">
-				<div class="title">
-					<a href="artist.php">
-						<div class="img">
-							 <img src="./img/selection_img01.png">
-						</div>
-					</a>
-					<h5><span>李霽洵</span><span>作為一枝花，我要</span></h5>
-				</div>
-				<div class="content">
-					<div class="info">
-						<p>李霽洵  相對無語VI （雕刻）</p>
-					</div>
-				</div>
-			</div>
-			<!-- End item01 -->
 
-			<!-- Start item02 -->
-			<div class="item">
-				<div class="title">
-					<a href="artist.php">
-						<div class="img">
-							 <img src="./img/selection_img02.jpg">
-						</div>
-					</a>
-					<h5><span>鍾文熙</span><span>福圓龍眼</span></h5>
-				</div>
-				<div class="content">
-					<div class="info">
-						<p>幼年記得在烏來忠治村後院種著百年龍眼樹，時逢8月龍眼肉厚甘甜，塞在嘴裡咕嚕咕嚕永遠難忘。 移居美國45年思念台灣水果，2019年回到台灣終於償願。</p>
 
-					</div>
-				</div>
-			</div>
-			<!-- End item02 -->
-			<!-- Start item03 -->
-			<div class="item">
-				<div class="title">
-					<a href="artist.php">
-						<div class="img">
-							 <img src="./img/selection_img03.jpg">
-						</div>
-					</a>
-					<h5><span>李健儀</span><span>牛群</span></h5>
-				</div>
-				<div class="content">
-					<div class="info">
-						<p>創作理念：寫實風景描繪帶有濃厚的魔幻意味，屏除自然光線的明暗和空氣的流動感，以古典的方式描繪出廣大神秘的空間，凝重厚實的色彩營造出不真實的視覺效果，甜美光耀的人物與暗調背景，帶著古典繪畫的韻致。</p>
 
-					</div>
-				</div>
-			</div>
-			<!-- End item03 -->
-			<!-- Start item04 -->
-			<div class="item">
-				<div class="title">
-					<a href="artist.php">
-						<div class="img">
-							 <img src="./img/selection_img04.jpg">
-						</div>
-					</a>
-					<h5><span>氫酸鉀</span><span>神的贈物</span></h5>
-				</div>
-				<div class="content">
-					<div class="info">
-						<p>姆帝國（氫酸鉀）變形記系列 - 神的贈物（壓克力）</p>
 
-					</div>
-				</div>
-			</div>
-			<!-- End item04 -->
-			<!-- Start item05 -->
-			<div class="item">
-				<div class="title">
-					<a href="artist.php">
-						<div class="img">
-							 <img src="./img/selection_img05.jpg">
-						</div>
-					</a>
-					<h5><span>林桂華</span><span>各有所好</span></h5>
-				</div>
-				<div class="content">
-					<div class="info">
-						<p>擁抱未來系列 各有所好 無庸置疑地，3C產品就像是我們的家人一般，形影不離地，
-無法跳脫出使用3C產品的可能性，從支付方式數位化、
-聯繫事情數位化後，人手一支手機已成必要條件。以擁抱
-未來做系列取名，也就好像我們的後代身處的大環境，他們是「必
-須」很自然而然地接受科技帶給我們的便利性，甚是更加地
-依賴使用3C產品，以侵入式的方式影響、改變著我們的生
-活。</p>
-
-					</div>
-				</div>
-			</div>
-			<!-- End item05 -->
-			<!-- Start item06 -->
-			<div class="item">
-				<div class="title">
-					<a href="artist.php">
-						<div class="img">
-							 <img src="./img/selection_img06.png">
-						</div>
-					</a>
-					<h5><span>黃品彤</span><span>初夏將至</span></h5>
-				</div>
-				<div class="content">
-					<div class="info">
-						<p>夏日山景</p>
-
-					</div>
-				</div>
-			</div>
-			<!-- End item06 -->
-			<!-- Start item07 -->
-			<div class="item">
-				<div class="title">
-					<a href="artist.php">
-						<div class="img">
-							 <img src="./img/selection_img07.jpg">
-						</div>
-					</a>
-					<h5><span>紀美華</span><span>山多里尼</span></h5>
-				</div>
-				<div class="content">
-					<div class="info">
-						<p>天佑玉山  頌</p>
-
-					</div>
-				</div>
-			</div>
-			<!-- End item07 -->
-		</div>
-	</section>
-	<!-- End selection -->
 
 <!-- 下載用FOOTER區塊開始 -->
 
