@@ -22,7 +22,8 @@
  
  	 <header>
 	<!-- Start marquee: 跑燈是文字會一直跑, 也許有數則, 從後台抓 -->
-	<section class="marquee">
+	<!-- 移除CLASS "autoplay", 則停止自動跑 -->
+	<section class="marquee autoplay">
 		<div class="container">
 			<ol>
 				<li>探索藝術的極致，「波翼藝術」現正招募！結合亞洲文化、先進線上技術，匯聚來自世界各地的優秀藝術家，共創無界藝術新境界。</li>
@@ -172,12 +173,107 @@
 	<!-- Start Index -->
 	<section class="index index_artist">
 		<div class="container">
-		
+			<div class="arrows">
+				<div class="img arrows_left">
+					<img src="./img/icon_arrow-left.png">
+				</div>
+				<div class="img arrows_right">
+					<img src="./img/icon_arrow-right.png">
+				</div>
+			</div>
+			<div class="carousel "><!-- autoplay -->
+				 <div class="slides">
+
+
+				 	<!-- Start item00, 最前面樣式, 勿動, 不用加 active -->
+					<div class="slide" id="index_slide00">
+						<div class="item">
+							<div class="title">
+						 		<a href="#!">
+							 		<h1>&nbsp;</h1>
+							 	</a>
+							</div>							
+						</div>
+					</div>
+					<!-- End item00, 最前面樣式, 勿動 -->
+
+					<!-- 中間位置的數字加上樣式 class "active" -->
+				 	<!-- Start item01 -->
+					<div class="slide active" id="index_slide01">
+						<div class="item">
+							<div class="title">
+						 		<a href="#!">
+							 		<h1>1</h1>
+							 	</a>
+							</div>
+						</div>
+					</div>
+				 	<!-- End item01 -->
+				 	
+				 	<!-- Start item02 -->
+					<div class="slide" id="index_slide02">
+						<div class="item">
+							<div class="title">
+						 		<a href="#!">
+							 		<h1>2</h1>
+							 	</a>
+							</div>
+						</div>
+					</div>
+				 	<!-- End item02 -->
+
+				 	<!-- Start item03 -->
+					<div class="slide" id="index_slide03" >
+						<div class="item">
+							<div class="title">
+						 		<a href="#!">
+							 		<h1>3</h1>
+							 	</a>
+							</div>
+						</div>
+					</div>
+				 	<!-- End item03 -->
+
+				 	<!-- Start item04 -->
+					<div class="slide" id="index_slide04">
+						<div class="item">
+							<div class="title">
+						 		<a href="#!">
+							 		<h1>4</h1>
+							 	</a>
+							</div>
+						</div>
+					</div>
+				 	<!-- End item04 -->
+				 	<!-- Start item05 -->
+					<div class="slide" id="index_slide05">
+						<div class="item">
+							<div class="title">
+						 		<a href="#!">
+							 		<h1>5</h1>
+							 	</a>
+							</div>
+						</div>
+					</div>
+				 	<!-- End item05 -->
+
+				 	<!-- Start item999, 最後面樣式, 勿動, 不用加 active -->
+					<div class="slide" id="index_slide999">
+						<div class="item">
+							<div class="title">
+						 		<a href="#!">
+							 		<h1>&nbsp;</h1>
+							 	</a>
+							</div>
+						</div>
+					</div>
+					<!-- End item999, 最前面樣式, 勿動 -->
+
+				 </div>
+			</div>
 		</div>
 	</section>
 	<!-- End Index -->
-
-	<!-- 以下區域, 依使用者選擇的藝術家顯示相關資訊 -->
 
 	<!-- 若藝術家有一個以上的展間, 則會自動輪播 -->
 	<!-- Start result artist -->
