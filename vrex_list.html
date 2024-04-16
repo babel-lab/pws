@@ -26,9 +26,9 @@
 	<section class="marquee autoplay">
 		<div class="container">
 			<ol>
-				<li>探索藝術的極致，「波翼藝術」現正招募！結合亞洲文化、先進線上技術，匯聚來自世界各地的優秀藝術家，共創無界藝術新境界。</li>
-				<li>波翼藝術分享藝術家們對美的看法與說法、打開視野、將各地人們連接在一起，並以此留下他們的印記。</li>
-				<li>藉由先進的線上藝廊技術，連結亞洲與世界各地藝術家的創作，賦予實體藝廊全新的多元體驗。</li>
+				<li>波翼藝術「Art on Air」 將臺灣藝術創作之美，藉由空中娛樂系統傳遞！</li>
+				<li>中華航空全球航線，現正熱映！</li>
+				<li>「Art on Air 藝起飛翔」第一季由藝術策展人-王焜生帶領五位藝術人-李素貞、雷岱爾、常陵、蔡士弘、盂施甫，讓您進入創作的藝享世界。</li>
 			</ol>
 		</div>
 	</section>
@@ -65,8 +65,8 @@
 						<li><a href="vrex_list.html" class="active">3D藝廊</a></li>
 						<li><a href="artist_list.html">藝術人</a></li>
 						<li class="pw_disabled"><a href="dgbook.php">波翼典藏</a></li>
-						<li class="pw_disabled"><a href="about_us.php">關於波翼</a></li>
-						<li class="pw_disabled"><a href="news_list.php">活動訊息</a></li>
+						<li><a href="about_us.php">關於波翼</a></li>
+						<li><a href="news_list.html">活動訊息</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -78,27 +78,48 @@
 	<!-- Start banner -->
 	<section class="banner vrex_list">
 		<div class="container">
-			<div class="carousel">
-				 <div class="slides">
+			
+			<div class="relative"> <!-- .relative 阿榮 -->
+			
+				<div class="banner_carousel">
+					<div class="banner_slides">
 
-				 	<!-- Start item01 -->		 	
-					<div class="slide" id="vrex_list_banner_slide01">
-						<div class="item"> 			
-							<div class="img">
-								<a href="artist.html">
-									<img src="./img/vrex_list_banner_img01.jpg">
-								</a>
+						<!-- Start item01 -->		 	
+						<div class="banner_slide" id="vrex_list_banner_slide01">
+						
+							<div class="item"> 			
+								<div class="img">
+									<a href="artist.html">
+										<img src="./img/vrex_list_banner_img01.jpg">
+									</a>
+								</div>
 							</div>
+							
 						</div>
+						<!-- End item01 -->
+						
+						<!-- 多於一個BANNER 時 -->
+								
+						<!-- Start item02 -->
+						<!-- End item02 -->
+						
+						<!-- Start item03 -->
+						<!-- End item03 -->					
+						
+					 </div>
+					 
+					 <div class="carousel_dot">
+						<a href="#vrex_list_banner_slide01" class="active">1</a>
+						  
+						<!-- 多於一個BANNER 時 -->
+						<a href="#vrex_list_banner_slide02" >2</a>
+						<a href="#vrex_list_banner_slide03" >3</a>
 					</div>
-				 	<!-- End item01 -->
-				 </div>
-				 
-				 <div class="carousel_dot">
-			          <a href="#banner_slide01" class="active">1</a>
-			    </div>
 			     
-			</div>
+				</div>
+				
+			</div> <!-- .relative 阿榮 -->
+			
 		</div>
 	</section>
 	<!-- End banner -->
@@ -175,335 +196,187 @@
 		<div class="container">
 			<div class="arrows">
 				<div class="img arrows_left">
-					<img src="./img/icon_arrow-left.png">
+					<a href="#!">
+						<img src="./img/icon_arrow-left.png">
+					</a>
 				</div>
 				<div class="img arrows_right">
-					<img src="./img/icon_arrow-right.png">
-				</div>
-			</div>
-			<div class="carousel "><!-- autoplay -->
-				 <div class="slides">
-
-
-				 	<!-- Start item00, 最前面樣式, 勿動, 不用加 active -->
-					<div class="slide" id="index_slide00">
-						<div class="item">
-							<div class="title">
-						 		<a href="#!">
-							 		<h1>&nbsp;</h1>
-							 	</a>
-							</div>							
-						</div>
-					</div>
-					<!-- End item00, 最前面樣式, 勿動 -->
-
-					<!-- 中間位置的數字加上樣式 class "active" -->
-				 	<!-- Start item01 -->
-					<div class="slide active" id="index_slide01">
-						<div class="item">
-							<div class="title">
-						 		<a href="#!">
-							 		<h1>1</h1>
-							 	</a>
-							</div>
-						</div>
-					</div>
-				 	<!-- End item01 -->
-				 	
-				 	<!-- Start item02 -->
-					<div class="slide" id="index_slide02">
-						<div class="item">
-							<div class="title">
-						 		<a href="#!">
-							 		<h1>2</h1>
-							 	</a>
-							</div>
-						</div>
-					</div>
-				 	<!-- End item02 -->
-
-				 	<!-- Start item03 -->
-					<div class="slide" id="index_slide03" >
-						<div class="item">
-							<div class="title">
-						 		<a href="#!">
-							 		<h1>3</h1>
-							 	</a>
-							</div>
-						</div>
-					</div>
-				 	<!-- End item03 -->
-
-				 	<!-- Start item04 -->
-					<div class="slide" id="index_slide04">
-						<div class="item">
-							<div class="title">
-						 		<a href="#!">
-							 		<h1>4</h1>
-							 	</a>
-							</div>
-						</div>
-					</div>
-				 	<!-- End item04 -->
-				 	<!-- Start item05 -->
-					<div class="slide" id="index_slide05">
-						<div class="item">
-							<div class="title">
-						 		<a href="#!">
-							 		<h1>5</h1>
-							 	</a>
-							</div>
-						</div>
-					</div>
-				 	<!-- End item05 -->
-
-				 	<!-- Start item999, 最後面樣式, 勿動, 不用加 active -->
-					<div class="slide" id="index_slide999">
-						<div class="item">
-							<div class="title">
-						 		<a href="#!">
-							 		<h1>&nbsp;</h1>
-							 	</a>
-							</div>
-						</div>
-					</div>
-					<!-- End item999, 最前面樣式, 勿動 -->
-
-				 </div>
-			</div>
-		</div>
-	</section>
-	<!-- End Index -->
-
-	<!-- 以下區域, 依使用者選擇的藝術家顯示相關資訊 -->
-
-	<!-- 若藝術家有一個以上的展間, 則會自動輪播 -->
-	<!-- Start result vrex -->
-	<section class="result vrex">
-		<div class="container">
-			<div class="title">
-				<a href="artist.html">
-					<h1>Li Suzhen</h1>
-					<h4>李素貞</h4>
-				</a>
-			</div>
-			<!-- 超過一個展間的話, 要輪播, 不自動輪播移除atuoplay -->
-			<div class="carousel autoplay"><!-- autoplay -->
-				 <div class="slides">
-
-				 	<!-- Start item01 -->
-					<div class="slide backward" id="result_slide01">
-						<div class="item">
-							<!--
-					 		<div class="title">
-						 		<a href="https://virtual.metaassets.asia/exhibitions/Sujin">
-							 		<h1>Li Suzhen</h1>
-							 		<h4>李素貞</h4>
-							 	</a>
-							</div>
-						-->
-						 	<div class="content">
-							 	<div class="img">
-									<a href="https://virtual.metaassets.asia/exhibitions/Sujin">
-										<img src="./img/vrex_index_banner_img01.jpg">
-									</a>
-								</div>				 	
-						 		<div class="info">
-						 			<h3>
-										<a href="https://virtual.metaassets.asia/exhibitions/Sujin">
-						 					<span>Vist 3D Gallery</span>
-						 				</a>
-						 				<a href="https://virtual.metaassets.asia/exhibitions/Sujin">
-						 					<span class="arrow"><img src="./img/icon_arrow-right.png"></span>
-										</a>
-						 			</h3>
-						 		</div>
-						 	</div>
-				 		</div>
-					</div>
-				 	<!-- End item01 -->
-				 	
-				 	<!-- Start item02 -->
-					<div class="slide backward" id="result_slide02">
-						<div class="item">
-							<!--
-					 		<div class="title">
-						 		<a href="https://virtual.metaassets.asia/exhibitions/SujinA">
-							 		<h1>Li Suzhen</h1>
-							 		<h4>李素貞</h4>
-							 	</a>
-							</div>
-							-->
-						 	<div class="content">
-							 	<div class="img">
-									<a href="https://virtual.metaassets.asia/exhibitions/SujinA">
-										<img src="./img/vrex_index_banner_img02.jpg">
-									</a>
-								</div>				 	
-						 		<div class="info">
-						 			<h3>
-										<a href="https://virtual.metaassets.asia/exhibitions/SujinA">
-						 					<span>Vist 3D Gallery</span>
-						 				</a>
-						 				<a href="https://virtual.metaassets.asia/exhibitions/SujinA">
-						 					<span class="arrow"><img src="./img/icon_arrow-right.png"></span>
-										</a>
-						 			</h3>
-						 		</div>
-						 	</div>
-				 		</div>
-					</div>
-				 	<!-- End item02 -->
-
-				 	<!-- Start item03 -->
-					<div class="slide backward" id="result_slide03">
-						<div class="item">
-							<!--
-					 		<div class="title">
-						 		<a href="https://virtual.metaassets.asia/exhibitions/Sujinlee">
-							 		<h1>Li Suzhen</h1>
-							 		<h4>李素貞</h4>
-							 	</a>
-							</div>
-							-->
-						 	<div class="content">
-							 	<div class="img">
-									<a href="https://virtual.metaassets.asia/exhibitions/Sujinlee">
-										<img src="./img/vrex_index_banner_img03.jpg">
-									</a>
-								</div>				 	
-						 		<div class="info">
-						 			<h3>
-										<a href="https://virtual.metaassets.asia/exhibitions/Sujinlee">
-						 					<span>Vist 3D Gallery</span>
-						 				</a>
-						 				<a href="https://virtual.metaassets.asia/exhibitions/Sujinlee">
-						 					<span class="arrow"><img src="./img/icon_arrow-right.png"></span>
-										</a>
-						 			</h3>
-						 		</div>
-						 	</div>
-				 		</div>
-					</div>
-				 	<!-- End item03 -->
-
-
-				 </div>
-				 
-				 <div class="carousel_dot">
-			          <a href="#result_slide01" class="active">1</a>
-					  <a href="#result_slide02" >2</a>
-					  <a href="#result_slide03" >3</a>
-			    </div>
-			    
-			</div>
-		</div>
-	</section>
-	<!-- End result vrex -->
-	<!-- 作者介紹, 200字內-->
-	<!-- Start artist intro -->
-	<section class="resume">
-		<div class="container">
-			<p>
-			李素貞
-　1951年　生於台灣．台中縣．大雅鄉
-
-現任
-　高雄市明正國小校長
-
-學歷
-　2007　高雄師範大學成人教育研究所碩士
-　1991　國立台南師範學院數理教育學系畢業
-　1971　國立花蓮師範專科學校美勞組畢業
-
-經歷
-　國小教師、主任、校長36年
-
-收藏
-　2000年　高雄市立美術館典藏作品「受苦人」、「環保人」、「青春」
-
-展歷
-　1971　參加全國水彩畫展於台北國立歷史博物館。
-　1973　加入「台中藝術家俱樂部」、「中華民國版畫學會」。
-　1974-75　藝術家聯展於省立台中圖書館、高雄市美術家畫廊、台中百樂畫廊。
-　1976　台灣省特殊優良教師「師鐸獎」。
-　1978-80　中部美展、台中市美術家聯展、藝術家俱樂部畫展於台灣省立博物館、台北春之藝廊。
-　1979　「女畫家四人展」於台中市翠華堂。
-　　　　台灣省公教人員書畫展油畫專業組佳作。
-　1980　作品「靜物」為台灣省政府收藏。
-			</p>
-		</div>
-	</section>
-	<!-- End artist intro -->
-	<!-- Start artwork -->
-	<section class="artwork vrex">
-		<div class="container">
-			<!-- Start item01 -->
-			<div class="item artwork01">
-				<div class="content">
-					<div class="img">
-						<a href="artist.html">
-							<img src="./img/vrex_artwork_img01.jpg">
-						</a>
-					</div>						 	
-					<div class="info">
-						<h6><span>孕</span><span>油畫</span></h6>	
-						 <h6><span>尺寸</span><span>89x71cm</span></h6>	
-					</div>
-				</div>
-			</div>
-			<!-- End item01 -->
-			<!-- Start item02 -->
-			<div class="item artwork02">
-				<div class="content">
-					<div class="img">
-						<a href="artist.html">
-							<img src="./img/vrex_artwork_img02.jpg">
-						</a>
-					</div>						 	
-					<div class="info">
-						<h6><span>夾縫風雲-扭曲人性</span><span>油畫</span></h6>
-						 <h6><span>尺寸</span><span>116.5x91cm</span></h6>
-					</div>
-				</div>
-			</div>
-			<!-- End item02 -->
-		</div>
-	</section>
-	<!-- End artwork -->
-	<!-- Start exhibition intro -->
-	<section class="exhibition">
-		<div class="container">
-			<p>展期：2025/元月 地點：高雄市立美術館 KSpace高雄實驗場 近年重要個展 2000 貞心素語— 李素貞個展/ 髙雄市立美術館 2007 浪漫與人本— 李素貞創作展/ 高雄正修藝術中心 2012 人間道— 李素貞個展/ 髙雄市立美術館 2016 「社」彩繽紛-- 李素貞個展/ 台北歌德藝術中心 2017 國際當代繪畫邀請展/ 台灣台南 2017 一個阿母畫的台灣-- 李素貞個展/ 日本東京藝術劇場 2017 一個母親畫的台灣-- 李素貞個展/ 台北中山堂 2018 藝術*良知良能-- 李素貞個展/ 台北228國家紀念館 2018 花開月自明個展/ 台中葫蘆墩文化中心 2019 一個母親畫的台灣-- 李素貞作品展/ 台南市美術館1館 2021 天真創作個展/ 高雄市立文化中心 創作自述 我的創作記錄了自己看待台灣這塊土地的心路歷程。面對國際情勢劇烈改變，俄烏戰爭、亞太情勢各層面都衝擊台灣的生存發展，我從身為人母的角度，描繪烙印在心坎裡的真實，創作的泉源來自生活中種種的體會，特別是社會發生的事件，我想彰顯人有免於恐懼的自由。 本次展覽包含「母性肉身」、「夾縫風雲」、「抵抗意志」三大主題，作品反應對社會歷史的積極參與及深刻省思，企圖勾勒出一段有情有淚的台灣近現代史。 「母性肉身」是以母親的視角，見證戒嚴以來的民主進程，回到歷史現場感同身受，坦誠地面對自己的社會，在畫中找到台灣女性不畏艱難的搏鬥精神。
-			</p>
-		</div>
-	</section>
-	<!-- End exhibition intro -->
-	<!-- Start artist -->
-	<section class="artists">
-		<div class="container">
-			<!-- Start item01 -->
-			<div class="item">
-				<div class="img">
-					<img src="./img/vrex_artist_banner_img_01.jpg">
-				</div>
-				<div class="title">
-					<a href="artist.html">
-						<h2>Li Suzhen</h2>
-						<h3>李素貞</h3>
-						<span class="arrow"><img src="./img/icon_arrow-right.png"></span>	
+					<a href="#!">
+						<img src="./img/icon_arrow-right.png">
 					</a>
 				</div>
 			</div>
-			<!-- End item01 -->
+			<div class="relative"> <!-- .relative 阿榮 -->
+			
+			
+				<div class="index_carousel"> <!-- carousel -->
+					<div class="index_slides"> <!-- slides -->			 	
+
+						<!-- 當前這筆資料加上樣式 class "active", 預設顯示第1筆 -->
+						<!-- Start item01 -->
+						<div class="index_slide active" id="index_slide01"> <!-- slide -->
+							<div class="item">
+								<div class="title">
+									<a href="#!">
+										<h1>1</h1>
+									</a>
+								</div>
+								<div class="content">
+								<!-- 若藝術家有一個以上的展間, 則會自動輪播 -->
+									<!-- Start result vrex -->
+									<section class="result vrex">
+										<div class="container">
+											<div class="title">
+												<a href="artist.html">
+													<h1>Li Suzhen</h1>
+													<h4>李素貞</h4>
+												</a>
+											</div>
+											<!-- 超過一個展間的話, 要自動輪播 -->
+											<div class="result_vrex_carousel"> <!-- carousel -->
+												 <div class="result_vrex_slides"> <!-- slides -->
+
+													<!-- Start item01 -->
+													<div class="result_vrex_slide" id="result1_slide01"><!-- slide backward -->
+														<div class="item">
+															<div class="content">
+																<div class="img">
+																	<a href="https://virtual.metaassets.asia/exhibitions/Sujin">
+																		<img src="./img/vrex_index_banner1_img01.jpg">
+																	</a>
+																</div>				 	
+																<div class="info">
+																	<h3>
+																		<a href="https://virtual.metaassets.asia/exhibitions/Sujin">
+																			<span>Vist 3D Gallery</span>
+																		</a>
+																		<a href="https://virtual.metaassets.asia/exhibitions/Sujin">
+																			<span class="arrow"><img src="./img/icon_arrow-right.png"></span>
+																		</a>
+																	</h3>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- End item01 -->
+													
+													<!-- 看這作者有幾個展間就顯示 -->
+													<!-- Start item02 -->
+													<!-- 第二個展間 -->
+													<!-- End item02 -->
+													
+													<!-- Start item03 -->
+													<!-- 第三個展間 -->
+													<!-- End item03 -->
+
+												 </div>										 
+												 <div class="carousel_dot">
+													  <a href="#result1_slide01" class="active">1</a>
+													  <a href="#result1_slide02">2</a>
+												</div>
+											</div>
+										</div>
+									</section>
+									<!-- End result vrex -->
+									
+									<!-- 作者介紹, 200字內-->
+									<!-- Start artist intro -->
+									<section class="resume">
+										<div class="container">
+											<p>李素貞1951年　生於台灣．台中縣．大雅鄉現任高雄市明正國小校長學歷高雄師範大學成人教</p>
+										</div>
+									</section>
+									<!-- End artist intro -->
+									
+									<!-- Start artwork -->
+									<section class="artwork vrex">
+										<div class="container">
+											<!-- Start item01 -->
+											<div class="item artwork01">
+												<div class="content">
+													<div class="img">
+														<a href="artist.html">
+															<img src="./img/vrex_artwork1_img01.jpg">
+														</a>
+													</div>						 	
+													<div class="info">
+														<h6><span>孕</span><span>油畫</span></h6>	
+														 <h6><span>尺寸</span><span>89x71cm</span></h6>	
+													</div>
+												</div>
+											</div>
+											<!-- End item01 -->
+											<!-- Start item02 -->
+											<div class="item artwork02">
+												<div class="content">
+													<div class="img">
+														<a href="artist.html">
+															<img src="./img/vrex_artwork1_img02.jpg">
+														</a>
+													</div>						 	
+													<div class="info">
+														<h6><span>夾縫風雲-扭曲人性</span><span>油畫</span></h6>
+														 <h6><span>尺寸</span><span>116.5x91cm</span></h6>
+													</div>
+												</div>
+											</div>
+											<!-- End item02 -->
+										</div>
+									</section>
+									<!-- End artwork -->
+									
+									
+									<!-- Start exhibition intro -->
+									<section class="exhibition">
+										<div class="container">
+											<p>展期：2025/元月 地對自己的社會，在畫中找到台灣女性...。</p>
+										</div>
+									</section>
+									<!-- End exhibition intro -->
+									<!-- Start artist -->
+									<section class="artists">
+										<div class="container">
+											<!-- Start item01 -->
+											<div class="item">
+												<div class="img">
+													<img src="./img/vrex_artist_banner_img_01.jpg">
+												</div>
+												<div class="title">
+													<a href="artist.html">
+														<h2>Li Suzhen</h2>
+														<h3>李素貞</h3>
+														<span class="arrow"><img src="./img/icon_arrow-right.png"></span>	
+													</a>
+												</div>
+											</div>
+											<!-- End item01 -->
+										</div>
+									</section>
+									<!-- End artist -->
+
+								</div>
+							</div>
+						</div>
+						<!-- End item01 -->
+
+						<!-- Start item02 -->
+						<!-- 第二個藝術家 -->
+						<!-- End item02 -->
+						
+						<!-- Start item03 -->
+						<!-- 第三個藝術家 -->
+						<!-- End item03 -->
+						
+					 </div>
+				</div>
+			
+			
+			
+			</div> <!-- .relative 阿榮 -->
+			
 		</div>
 	</section>
-	<!-- End artist -->
-
-
-
-
-
+	<!-- End Index -->
 
 <!-- 下載用FOOTER區塊開始 -->
 
@@ -547,18 +420,23 @@
 						</div>
 				</div>
 				<div class="social">
-					<a href="https://www.facebook.com/artpostwings" target="_blank">
+					<a href="https://www.facebook.com/profile.php?id=61556203757989&locale=zh_TW" target="_blank">
 						<img src="./img/icon_social-fb.png" alt="FB" />
 					</a>
 					<a href="https://lin.ee/JZsJd4o" target="_blank">
 						<img src="./img/icon_social-line.png" alt="LINE" />
 					</a>
-					<a href="#!" target="_blank">
+					<a href="https://www.instagram.com/postwingsart?igsh=cGJtbzdwNWZiZmts&utm_source=qr" target="_blank">
 						<img src="./img/icon_social-ig.png" alt="IG" />
 					</a>
+					<a href="https://youtube.com/@POSTWINGS-sm4gl?si=hzCOBMxAdU8vHGPK" target="_blank">
+						<img src="./img/icon_social-yt.png" alt="YT" />
+					</a>
+					<!--
 					<a href="#!" target="_blank">
 						<img src="./img/icon_social-map.png" alt="About PostWings" />
 					</a>
+					-->
 				</div>
 				<div class="partner">
 					<h5>夥伴連結</h5>
@@ -592,7 +470,7 @@
 	 	<!-- End footer -->
 	 	<!-- Start copyright -->
 	 	<div class="copyright">
-	 		<h6>萬事通國際服務網股份有限公司版權所有</h6>
+	 		<h6>元宇宙股份有限公司版權所有</h6>
 	 		<h6>隱私權政策Metaassets認證平台</h6>
 	 	</div>
 	 	<!-- End copyright --> 	
